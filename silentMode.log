@@ -1,0 +1,35 @@
+06, 04, 2010 (23:01:02): UR named: Default, of type ISubsystem, and ID: 00000000-0000-0000-0000-000000000000 was created. Owned by the Elevator Project.
+06, 04, 2010 (23:01:02): UR named: Osoba poza winda, of type IActor, and ID: 0a8fa761-11fc-4a21-af30-b5b44af2d89e was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Operator, of type IActor, and ID: feb8fe22-2774-4d11-925c-abf36e926ede was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Przywolanie windy, of type IUseCase, and ID: 56f95be9-099a-4af5-b1ce-2c529cef2624 was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Wybranie pietra docelowego, of type IUseCase, and ID: 9da15fe7-b557-4018-b59b-6aeeade82739 was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Laczenie sie z operatorem, of type IUseCase, and ID: 50de2391-2694-447a-830a-dd5b0e1407d4 was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Otwieranie drzwi windy, of type IUseCase, and ID: 2c804e57-0038-426c-9010-bce23e1bb04f was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Zamykanie drzwi windy, of type IUseCase, and ID: ec3c256f-06d1-482f-b838-327254baaa2b was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Wlaczenie wentylatora, of type IUseCase, and ID: 259147b8-f52d-4710-8057-2cecff81301c was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Blokowanie windy, of type IUseCase, and ID: 9609f025-5e80-46c0-987b-0e30491c47a3 was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Odblokowywanie windy, of type IUseCase, and ID: 8f7aa6d4-fece-40b9-8c04-f4033cc9a811 was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Kontrola stanu windy, of type IUseCase, and ID: 7d607978-da01-4f03-b6a2-c8e9b4ac2886 was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Wybranie kierunku jazdy, of type IUseCase, and ID: a86d32ca-485f-429b-acb4-1bf71a0394f6 was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: Pasazer, of type IActor, and ID: e4040884-400c-4103-8912-faa50e600252 was created. Owned by the Default Package.
+06, 04, 2010 (23:01:02): UR named: itsOsoba poza winda, of type IAssociationEnd, and ID: e75ae187-c154-4edd-b60b-59917542e30c was created. Owned by the Przywolanie windy UseCase.
+06, 04, 2010 (23:01:02): UR named: itsPrzywolanie windy, of type IAssociationEnd, and ID: 061c3db1-fb20-413a-8981-513e89f41a47 was created. Owned by the Osoba poza winda Actor.
+06, 04, 2010 (23:01:02): UR named: itsKontrola stanu windy, of type IAssociationEnd, and ID: cd6684eb-c48d-47fe-bf8f-dc8fb7f4b9c7 was created. Owned by the Operator Actor.
+06, 04, 2010 (23:01:02): UR named: itsOperator, of type IAssociationEnd, and ID: cd373922-9c7f-4aff-a81d-8eba137c33fa was created. Owned by the Kontrola stanu windy UseCase.
+06, 04, 2010 (23:01:02): UR named: itsOperator, of type IAssociationEnd, and ID: e148f027-c333-4896-b438-bd44a8819949 was created. Owned by the Odblokowywanie windy UseCase.
+06, 04, 2010 (23:01:02): UR named: itsOdblokowywanie windy, of type IAssociationEnd, and ID: 0f83c367-4d40-487d-9dcc-c593f237a854 was created. Owned by the Operator Actor.
+06, 04, 2010 (23:01:02): UR named: itsOperator, of type IAssociationEnd, and ID: 8f98029f-a135-42ca-bfbc-fbf1d59cd236 was created. Owned by the Blokowanie windy UseCase.
+06, 04, 2010 (23:01:02): UR named: itsBlokowanie windy, of type IAssociationEnd, and ID: 34881e06-3629-4698-9c86-84d2090fee4a was created. Owned by the Operator Actor.
+06, 04, 2010 (23:01:02): UR named: itsOperator, of type IAssociationEnd, and ID: 54ddf916-7b30-46ab-b2a9-cd0ed83ac8b5 was created. Owned by the Laczenie sie z operatorem UseCase.
+06, 04, 2010 (23:01:02): UR named: itsLaczenie sie z operatorem, of type IAssociationEnd, and ID: 77885f00-93c9-4fe6-821d-6d9cb011e228 was created. Owned by the Operator Actor.
+06, 04, 2010 (23:01:02): UR named: Wybranie kierunku jazdy, of type IGeneralization, and ID: 3eedc000-9f2e-47d9-93db-b94972a63364 was created. Owned by the Przywolanie windy UseCase.
+06, 04, 2010 (23:01:02): UR named: itsPasazer, of type IAssociationEnd, and ID: ae2f1fe8-2411-4405-8672-4f79e51c56f8 was created. Owned by the Wlaczenie wentylatora UseCase.
+06, 04, 2010 (23:01:02): UR named: itsWlaczenie wentylatora, of type IAssociationEnd, and ID: 458861d6-b981-44e4-8c4b-a7a0efa2e990 was created. Owned by the Pasazer Actor.
+06, 04, 2010 (23:01:02): UR named: itsPasazer, of type IAssociationEnd, and ID: 8c433e85-177b-4079-9e2f-935ca94f5424 was created. Owned by the Zamykanie drzwi windy UseCase.
+06, 04, 2010 (23:01:02): UR named: itsZamykanie drzwi windy, of type IAssociationEnd, and ID: 39a5d04e-884f-43b0-a842-9c1d4026631b was created. Owned by the Pasazer Actor.
+06, 04, 2010 (23:01:02): UR named: itsPasazer, of type IAssociationEnd, and ID: 610cf74d-8594-4163-8fcc-a20e44214808 was created. Owned by the Otwieranie drzwi windy UseCase.
+06, 04, 2010 (23:01:02): UR named: itsOtwieranie drzwi windy, of type IAssociationEnd, and ID: be55978e-6295-41c2-b27b-41a17d26058c was created. Owned by the Pasazer Actor.
+06, 04, 2010 (23:01:02): UR named: itsPasazer, of type IAssociationEnd, and ID: 9de8b6e5-0c38-49ff-bc3d-802ee2565480 was created. Owned by the Laczenie sie z operatorem UseCase.
+06, 04, 2010 (23:01:03): UR named: itsLaczenie sie z operatorem, of type IAssociationEnd, and ID: 13b44011-2bfd-4d05-9867-72b720eb3064 was created. Owned by the Pasazer Actor.
+06, 04, 2010 (23:01:03): UR named: itsPasazer, of type IAssociationEnd, and ID: 6900c510-d325-459f-a42a-5f56eba18f8b was created. Owned by the Wybranie pietra docelowego UseCase.
+06, 04, 2010 (23:01:03): UR named: itsWybranie pietra docelowego, of type IAssociationEnd, and ID: 8949d93b-335c-494c-ae42-54ea0dc0a72f was created. Owned by the Pasazer Actor.
