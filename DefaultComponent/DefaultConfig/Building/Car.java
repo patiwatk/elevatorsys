@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 7.5.1
-	Login		: tzadlo
+	Login		: lisher
 	Component	: DefaultComponent
 	Configuration 	: DefaultConfig
 	Model Element	: Car
-//!	Generated Date	: Sat, 12, Jun 2010 
+//!	Generated Date	: Sun, 13, Jun 2010 
 	File Path	: DefaultComponent/DefaultConfig/Building/Car.java
 *********************************************************************/
 
@@ -31,13 +31,7 @@ public class Car implements RiJStateConcept {
     
     public Reactive reactive;		//## ignore 
     
-    protected CarButtonsControl btnController;		//## attribute btnController 
-    
-    protected Door doorInside;		//## attribute doorInside 
-    
     protected int itsNumber;		//## attribute itsNumber 
-    
-    protected SafetyControl safetyController;		//## attribute safetyController 
     
     protected CarButtonsControl itsCarButtonsControl;		//## link itsCarButtonsControl 
     
@@ -144,24 +138,22 @@ public class Car implements RiJStateConcept {
         //#]
     }
     
-    //## auto_generated 
-    public CarButtonsControl getBtnController() {
-        return btnController;
+    //## operation lockElevator() 
+    public void lockElevator() {
+        //#[ operation lockElevator() 
+        //#]
     }
     
-    //## auto_generated 
-    public void setBtnController(CarButtonsControl p_btnController) {
-        btnController = p_btnController;
+    //## operation stopAtFloor(int) 
+    public void stopAtFloor(int floor) {
+        //#[ operation stopAtFloor(int) 
+        //#]
     }
     
-    //## auto_generated 
-    public Door getDoorInside() {
-        return doorInside;
-    }
-    
-    //## auto_generated 
-    public void setDoorInside(Door p_doorInside) {
-        doorInside = p_doorInside;
+    //## operation unlockElevator() 
+    public void unlockElevator() {
+        //#[ operation unlockElevator() 
+        //#]
     }
     
     //## auto_generated 
@@ -172,16 +164,6 @@ public class Car implements RiJStateConcept {
     //## auto_generated 
     public void setItsNumber(int p_itsNumber) {
         itsNumber = p_itsNumber;
-    }
-    
-    //## auto_generated 
-    public SafetyControl getSafetyController() {
-        return safetyController;
-    }
-    
-    //## auto_generated 
-    public void setSafetyController(SafetyControl p_safetyController) {
-        safetyController = p_safetyController;
     }
     
     //## auto_generated 

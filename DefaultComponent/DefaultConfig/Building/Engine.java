@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 7.5.1
-	Login		: tzadlo
+	Login		: lisher
 	Component	: DefaultComponent
 	Configuration 	: DefaultConfig
 	Model Element	: Engine
-//!	Generated Date	: Sat, 12, Jun 2010 
+//!	Generated Date	: Sun, 13, Jun 2010 
 	File Path	: DefaultComponent/DefaultConfig/Building/Engine.java
 *********************************************************************/
 
@@ -105,6 +105,12 @@ public class Engine implements RiJStateConcept {
     //## auto_generated 
     public  Engine(RiJThread p_thread) {
         reactive = new Reactive(p_thread);
+    }
+    
+    //## operation moveAtFloor(int,int) 
+    public void moveAtFloor(int floor, int currentFloor) {
+        //#[ operation moveAtFloor(int,int) 
+        //#]
     }
     
     //## operation start() 
