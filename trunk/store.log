@@ -1,35 +1,21 @@
-06, 13, 2010 (11:16:49): Starting Pre-Save actions
+06, 13, 2010 (11:32:43): Starting Pre-Save actions
 
-06, 13, 2010 (11:16:49): Starting Dialogs Check/Save
-06, 13, 2010 (11:16:49): Finished Dialogs Check/Save
-06, 13, 2010 (11:16:49): Starting Controlled Files Resolution
-06, 13, 2010 (11:16:49): Finished Controlled Files Resolution
-06, 13, 2010 (11:16:49): Finished Pre-Save actions
+06, 13, 2010 (11:32:43): Starting Dialogs Check/Save
+06, 13, 2010 (11:32:43): Finished Dialogs Check/Save
+06, 13, 2010 (11:32:43): Starting Controlled Files Resolution
+06, 13, 2010 (11:32:43): Finished Controlled Files Resolution
+06, 13, 2010 (11:32:43): Finished Pre-Save actions
 
-06, 13, 2010 (11:16:49): Creating D:\studia\scr\Elevator\Elevator.rpy
-06, 13, 2010 (11:16:49): 
-Started writing D:\studia\scr\Elevator\Elevator.rpy on Sunday, June 13, 2010 (11:16:49)
+06, 13, 2010 (11:32:43): Creating D:\studia\scr\Elev_SVN\Elevator.rpy
+06, 13, 2010 (11:32:43): 
+Started writing D:\studia\scr\Elev_SVN\Elevator.rpy on Sunday, June 13, 2010 (11:32:43)
 
-06, 13, 2010 (11:16:49): version 8.5.2
-06, 13, 2010 (11:16:49): 
-Started writing D:\studia\scr\Elevator\Elevator_rpy\filesTable.dat on Sunday, June 13, 2010 (11:16:49)
+06, 13, 2010 (11:32:43): version 8.5.2
+06, 13, 2010 (11:32:43): 
+Started writing D:\studia\scr\Elev_SVN\Elevator_rpy\filesTable.dat on Sunday, June 13, 2010 (11:32:43)
 
-06, 13, 2010 (11:16:49): Finished writing D:\studia\scr\Elevator\Elevator_rpy\filesTable.dat on Sunday, June 13, 2010 (11:16:49)
+06, 13, 2010 (11:32:43): Finished writing D:\studia\scr\Elev_SVN\Elevator_rpy\filesTable.dat on Sunday, June 13, 2010 (11:32:43)
 
-06, 13, 2010 (11:16:49): Creating D:\studia\scr\Elevator\Elevator_rpy\Building.sbs
-06, 13, 2010 (11:16:49): 
-Started writing D:\studia\scr\Elevator\Elevator_rpy\Building.sbs on Sunday, June 13, 2010 (11:16:49)
+06, 13, 2010 (11:32:43): Finished writing D:\studia\scr\Elev_SVN\Elevator.rpy on Sunday, June 13, 2010 (11:32:43)
 
-06, 13, 2010 (11:16:49): version 8.5.2
-06, 13, 2010 (11:16:49): Finished writing D:\studia\scr\Elevator\Elevator_rpy\Building.sbs on Sunday, June 13, 2010 (11:16:49)
-
-06, 13, 2010 (11:16:49): Creating D:\studia\scr\Elevator\Elevator_rpy\DefaultComponent.cmp
-06, 13, 2010 (11:16:49): 
-Started writing D:\studia\scr\Elevator\Elevator_rpy\DefaultComponent.cmp on Sunday, June 13, 2010 (11:16:49)
-
-06, 13, 2010 (11:16:49): version 8.5.2
-06, 13, 2010 (11:16:49): Finished writing D:\studia\scr\Elevator\Elevator_rpy\DefaultComponent.cmp on Sunday, June 13, 2010 (11:16:49)
-
-06, 13, 2010 (11:16:49): Finished writing D:\studia\scr\Elevator\Elevator.rpy on Sunday, June 13, 2010 (11:16:49)
-
-06, 13, 2010 (11:16:49): End Log
+06, 13, 2010 (11:32:43): End Log

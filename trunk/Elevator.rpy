@@ -8085,7 +8085,7 @@ o nowe";
 				}
 			}
 			- _name = "close_the_door";
-			- _lastModifiedTime = "6.12.2010::15:24:24";
+			- _lastModifiedTime = "6.13.2010::9:32:16";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -8148,7 +8148,7 @@ o nowe";
 					}
 					- m_pParent = GUID 3e118e91-e2a2-47e8-9b48-46d91fe42995;
 					- m_name = { CGIText 
-						- m_str = "CarButtonControl";
+						- m_str = "CarButtonsControl";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -8492,7 +8492,7 @@ o nowe";
 					- value = 
 					{ IClassifierRole 
 						- _id = GUID 65884b67-ecd0-4d33-98e0-c67764ece373;
-						- _name = "CarButtonControl";
+						- _name = "CarButtonsControl";
 						- m_eRoleType = CLASS;
 						- m_pBase = { IHandle 
 							- _m2Class = "";
@@ -8855,7 +8855,7 @@ o nowe";
 				}
 			}
 			- _name = "choose_destination";
-			- _lastModifiedTime = "6.12.2010::11:47:24";
+			- _lastModifiedTime = "6.13.2010::9:32:24";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -9006,7 +9006,7 @@ o nowe";
 					}
 					- m_pParent = GUID 872f3f57-9da8-4b99-9cf4-ae3c2f1bca20;
 					- m_name = { CGIText 
-						- m_str = "CarButtonControl";
+						- m_str = "CarButtonsControl";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -9331,7 +9331,7 @@ o nowe";
 					}
 					{ IClassifierRole 
 						- _id = GUID ccfe9be7-8691-4058-997e-5e3bc87f9e37;
-						- _name = "CarButtonControl";
+						- _name = "CarButtonsControl";
 						- m_eRoleType = CLASS;
 						- m_pBase = { IHandle 
 							- _m2Class = "";
