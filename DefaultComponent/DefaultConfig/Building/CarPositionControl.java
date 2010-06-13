@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 7.5.1
-	Login		: Mateusz
+	Login		: tzadlo
 	Component	: DefaultComponent
 	Configuration 	: DefaultConfig
 	Model Element	: CarPositionControl
-//!	Generated Date	: Thu, 3, Jun 2010 
+//!	Generated Date	: Sat, 12, Jun 2010 
 	File Path	: DefaultComponent/DefaultConfig/Building/CarPositionControl.java
 *********************************************************************/
 

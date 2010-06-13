@@ -1,24 +1,31 @@
 I-Logix-RPY-Archive version 8.5.2 * 1419348
 
 - m_fileModifyTime = { IRPYRawContainer 
-	- size = 14;
-	- value = "DefaultComponent/DefaultConfig/Building/Button.java" 6.3.2010::12:44:48
+	- size = 21;
+	- value = "DefaultComponent/DefaultConfig/Building/Button.java" 6.12.2010::21:48:44
 	"DefaultComponent/DefaultConfig/Building/ButtonControl.java" 6.3.2010::12:44:48
-	"DefaultComponent/DefaultConfig/Building/Car.java" 6.3.2010::12:44:48
+	"DefaultComponent/DefaultConfig/Building/Call.java" 6.12.2010::21:48:44
+	"DefaultComponent/DefaultConfig/Building/Car.java" 6.12.2010::21:48:44
 	"DefaultComponent/DefaultConfig/Building/CarButton.java" 6.3.2010::12:44:48
 	"DefaultComponent/DefaultConfig/Building/CarButtonControl.java" 6.3.2010::12:44:48
-	"DefaultComponent/DefaultConfig/Building/CarPositionControl.java" 6.3.2010::12:44:48
-	"DefaultComponent/DefaultConfig/Building/Dispatcher.java" 6.3.2010::12:44:48
-	"DefaultComponent/DefaultConfig/Building/Door.java" 6.3.2010::12:44:48
-	"DefaultComponent/DefaultConfig/Building/Engine.java" 6.3.2010::12:44:48
-	"DefaultComponent/DefaultConfig/Building/Floor.java" 6.3.2010::12:44:48
+	"DefaultComponent/DefaultConfig/Building/CarButtonsControl.java" 6.12.2010::21:48:44
+	"DefaultComponent/DefaultConfig/Building/CarPositionControl.java" 6.12.2010::21:48:44
+	"DefaultComponent/DefaultConfig/Building/Dispatcher.java" 6.12.2010::15:33:31
+	"DefaultComponent/DefaultConfig/Building/Door.java" 6.12.2010::21:48:44
+	"DefaultComponent/DefaultConfig/Building/Engine.java" 6.12.2010::21:48:44
+	"DefaultComponent/DefaultConfig/Building/Floor.java" 6.12.2010::21:48:44
 	"DefaultComponent/DefaultConfig/Building/FloorButton.java" 6.3.2010::12:44:48
+	"DefaultComponent/DefaultConfig/Building/FloorButtonsControl.java" 6.12.2010::21:48:44
+	"DefaultComponent/DefaultConfig/Building/Operator.java" 6.12.2010::21:48:44
+	"DefaultComponent/DefaultConfig/Building/Passenger.java" 6.12.2010::21:48:44
+	"DefaultComponent/DefaultConfig/Building/Person_outside_elevator.java" 6.12.2010::21:48:44
+	"DefaultComponent/DefaultConfig/Building/SafetyControl.java" 6.12.2010::21:48:44
 	"DefaultComponent/DefaultConfig/Building/SensorsControl.java" 6.3.2010::12:44:48
 	"DefaultComponent/DefaultConfig/Default/Operator.java" 5.28.2010::22:49:52
 	"DefaultComponent/DefaultConfig/Default/Pasazer.java" 5.28.2010::22:49:59
 	
 }
-- size = 13;
+- size = 15;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Building.sbs";
@@ -27,7 +34,7 @@ I-Logix-RPY-Archive version 8.5.2 * 1419348
 	- _name = "Dispatcher";
 	- _id = GUID a2bbe749-08c2-4c29-b4e2-d4b39ee59806;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::15:33:31;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Building.sbs";
@@ -36,34 +43,61 @@ I-Logix-RPY-Archive version 8.5.2 * 1419348
 	- _name = "CarPositionControl";
 	- _id = GUID bd06549c-56ab-4e49-94e7-c3c4b8d88e25;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::21:48:46;
 - hElement = { IHandle 
-	- _m2Class = "IClass";
+	- _m2Class = "IActor";
 	- _filename = "Building.sbs";
 	- _subsystem = "Building";
 	- _class = "";
-	- _name = "CarButton";
-	- _id = GUID 0aadf21e-6b6b-48d8-b966-f69475927322;
+	- _name = "Person_outside_elevator";
+	- _id = GUID f62ab41f-84e1-4b25-b289-158d229876ab;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::21:48:46;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Building.sbs";
 	- _subsystem = "Building";
 	- _class = "";
-	- _name = "SensorsControl";
+	- _name = "SafetyControl";
 	- _id = GUID cafb5654-2b1b-4990-9626-e5f5e609c486;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::21:48:46;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "Building.sbs";
+	- _subsystem = "Building";
+	- _class = "";
+	- _name = "Passenger";
+	- _id = GUID ef86376a-1258-4686-9f3b-933862bdfd9e;
+}
+- genTime = 6.12.2010::21:48:46;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Building.sbs";
 	- _subsystem = "Building";
 	- _class = "";
-	- _name = "FloorButton";
+	- _name = "FloorButtonsControl";
 	- _id = GUID 4f07375a-fb5d-4206-b6cf-4b6b92e7b181;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::21:48:46;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "Building.sbs";
+	- _subsystem = "Building";
+	- _class = "";
+	- _name = "Operator";
+	- _id = GUID bdee22e5-5aab-4b37-81b1-ee1201260afa;
+}
+- genTime = 6.12.2010::21:48:46;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Building.sbs";
+	- _subsystem = "Building";
+	- _class = "";
+	- _name = "Call";
+	- _id = GUID 58dc5f5e-6ea4-4639-bd29-a5d76b5c38c3;
+}
+- genTime = 6.12.2010::21:48:46;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Building.sbs";
@@ -72,16 +106,16 @@ I-Logix-RPY-Archive version 8.5.2 * 1419348
 	- _name = "Engine";
 	- _id = GUID 0a808da9-bdda-46fe-8b74-8a8037a9494d;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::21:48:46;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Building.sbs";
 	- _subsystem = "Building";
 	- _class = "";
-	- _name = "CarButtonControl";
+	- _name = "CarButtonsControl";
 	- _id = GUID 61223183-3c37-4779-adf2-36822edaf82c;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::21:48:46;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Building.sbs";
@@ -90,7 +124,7 @@ I-Logix-RPY-Archive version 8.5.2 * 1419348
 	- _name = "Floor";
 	- _id = GUID 77c681a8-376e-4686-8b7b-9ccdbddf23f9;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::21:48:46;
 - hElement = { IHandle 
 	- _m2Class = "ICodeGenConfigInfo";
 	- _filename = "DefaultComponent.cmp";
@@ -99,7 +133,7 @@ I-Logix-RPY-Archive version 8.5.2 * 1419348
 	- _name = "DefaultComponent\\DefaultConfig";
 	- _id = GUID 02267cb5-5330-4032-8573-93c1f251b242;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.13.2010::9:7:6;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Building.sbs";
@@ -108,16 +142,7 @@ I-Logix-RPY-Archive version 8.5.2 * 1419348
 	- _name = "Car";
 	- _id = GUID 297f9477-68d7-4654-b962-bb119c3e9101;
 }
-- genTime = 6.3.2010::12:44:48;
-- hElement = { IHandle 
-	- _m2Class = "IClass";
-	- _filename = "Building.sbs";
-	- _subsystem = "Building";
-	- _class = "";
-	- _name = "ButtonControl";
-	- _id = GUID b12bf29f-d2ff-4b05-933e-09ec8d953df0;
-}
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::21:48:46;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Building.sbs";
@@ -126,7 +151,7 @@ I-Logix-RPY-Archive version 8.5.2 * 1419348
 	- _name = "Door";
 	- _id = GUID a60adfcd-5329-4cca-915c-468e4eaf358e;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::21:48:46;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Building.sbs";
@@ -135,5 +160,5 @@ I-Logix-RPY-Archive version 8.5.2 * 1419348
 	- _name = "Button";
 	- _id = GUID dfd181a8-0b08-4677-9758-b286f5a90c63;
 }
-- genTime = 6.3.2010::12:44:48;
+- genTime = 6.12.2010::21:48:46;
 
