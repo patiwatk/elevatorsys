@@ -432,7 +432,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 				}
 			}
 			- _name = "Model1";
-			- _lastModifiedTime = "6.13.2010::9:6:59";
+			- _lastModifiedTime = "6.13.2010::11:5:53";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 00241a05-712d-41f0-ac84-1a2cc2cd10be;
 				- m_type = 0;
@@ -558,7 +558,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.199946 0 0 0.292238 122.58 399.816 ;
+					- m_transform = 0.199946 0 0 0.292238 122.58 398.767 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -581,7 +581,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IAttribute";
@@ -590,14 +590,6 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "Floor";
 							- _name = "itsNumber";
 							- _id = GUID ad641878-e59d-4d54-9ba6-37f9c614c667;
-						}
-						{ IHandle 
-							- _m2Class = "IAttribute";
-							- _filename = "Building.sbs";
-							- _subsystem = "Building";
-							- _class = "Floor";
-							- _name = "doorOutSide";
-							- _id = GUID 357696d8-df65-4e19-b6d0-2d10bff9a402;
 						}
 					}
 					- Operations = { IRPYRawContainer 
@@ -987,7 +979,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.872349 0 0 0.865334 46 -11.1815 ;
+					- m_transform = 1.92065 0 0 1.50652 46 -27.5439 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1057,7 +1049,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.312889 0 0 0.277958 770.988 383.957 ;
+					- m_transform = 0.312889 0 0 0.31296 770.988 372.395 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1079,7 +1071,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 4;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IAttribute";
@@ -1089,33 +1081,9 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _name = "itsNumber";
 							- _id = GUID 7cfb2838-4f09-4594-8b24-cc2b36fdad77;
 						}
-						{ IHandle 
-							- _m2Class = "IAttribute";
-							- _filename = "Building.sbs";
-							- _subsystem = "Building";
-							- _class = "Car";
-							- _name = "btnController";
-							- _id = GUID 0d33a45b-c48d-49d6-a7ab-88b39189f4a6;
-						}
-						{ IHandle 
-							- _m2Class = "IAttribute";
-							- _filename = "Building.sbs";
-							- _subsystem = "Building";
-							- _class = "Car";
-							- _name = "doorInside";
-							- _id = GUID 87e21c48-cf6d-4a26-b3a2-acb07f306da3;
-						}
-						{ IHandle 
-							- _m2Class = "IAttribute";
-							- _filename = "Building.sbs";
-							- _subsystem = "Building";
-							- _class = "Car";
-							- _name = "safetyController";
-							- _id = GUID 9d0c2ff4-a782-46da-ac85-5620d5ac534e;
-						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 3;
+						- size = 9;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -1140,6 +1108,54 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "Car";
 							- _name = "setNewDestination()";
 							- _id = GUID 038c0743-147d-42c8-956f-ac96991c0abd;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "lockElevator()";
+							- _id = GUID 860466b6-902b-463f-8bbc-5bbfae3feae3;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "unlockElevator()";
+							- _id = GUID fe154b07-7365-4b34-823d-84c40ee47be7;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "stopAtFloor(int)";
+							- _id = GUID 4ead7fcb-c14d-49a0-a964-010c43002601;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "openDoor()";
+							- _id = GUID 408d54a8-3702-44f8-9304-82e129c01eb8;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "closeDoor()";
+							- _id = GUID d2469cfb-610e-4dcf-b6cd-2d84aba6e7fb;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "setDoorInterrupt()";
+							- _id = GUID 32d3b2c2-ed2f-4d22-bc7b-1718a331fa08;
 						}
 					}
 				}
@@ -1216,7 +1232,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
-					- m_SourcePort = 572 1009 ;
+					- m_SourcePort = 573 932 ;
 					- m_TargetPort = 984 481 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
@@ -1572,7 +1588,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.221974 0 0 0.249344 823.433 744.339 ;
+					- m_transform = 0.221974 0 0 0.236977 855.193 774.655 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1731,8 +1747,8 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
-					- m_SourcePort = 444 1139 ;
-					- m_TargetPort = 390 936 ;
+					- m_SourcePort = 445 1140 ;
+					- m_TargetPort = 247 935 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Building.sbs";
@@ -1886,7 +1902,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.217588 0 0 0.259083 887.977 -22.9514 ;
+					- m_transform = 0.217588 0 0 0.259083 887.977 -24.0001 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1929,7 +1945,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 2;
+						- size = 3;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -1946,6 +1962,14 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "Engine";
 							- _name = "start()";
 							- _id = GUID 65cc8a3d-aab8-4afb-ab3f-7e8f72feb8d3;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Engine";
+							- _name = "moveAtFloor(int,int)";
+							- _id = GUID 93e9b84a-a755-4a4a-a87b-f4c18bc056f7;
 						}
 					}
 				}
@@ -2022,7 +2046,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
-					- m_SourcePort = 724 587 ;
+					- m_SourcePort = 723 589 ;
 					- m_TargetPort = 503 586 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
@@ -2176,7 +2200,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.203083 0 0 0.270642 250.938 56.8209 ;
+					- m_transform = 0.203083 0 0 0.270642 250.938 53.8844 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2199,40 +2223,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 4;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IAttribute";
-							- _filename = "Building.sbs";
-							- _subsystem = "Building";
-							- _class = "Dispatcher";
-							- _name = "firstCar";
-							- _id = GUID f58bea91-b32d-452d-ba39-465d7a43df65;
-						}
-						{ IHandle 
-							- _m2Class = "IAttribute";
-							- _filename = "Building.sbs";
-							- _subsystem = "Building";
-							- _class = "Dispatcher";
-							- _name = "secCar";
-							- _id = GUID 1aa8bd5d-6baf-4f4d-b0dc-0ba5cf960ed2;
-						}
-						{ IHandle 
-							- _m2Class = "IAttribute";
-							- _filename = "Building.sbs";
-							- _subsystem = "Building";
-							- _class = "Dispatcher";
-							- _name = "thirdCar";
-							- _id = GUID 38ebe652-a94d-4734-a6ae-05b67f00f89b;
-						}
-						{ IHandle 
-							- _m2Class = "IAttribute";
-							- _filename = "Building.sbs";
-							- _subsystem = "Building";
-							- _class = "Dispatcher";
-							- _name = "attribute_5";
-							- _id = GUID 93a0850e-6430-4c58-91f0-1a28fcf0ae8f;
-						}
+						- size = 0;
 					}
 					- Operations = { IRPYRawContainer 
 						- size = 5;
@@ -2262,20 +2253,20 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _id = GUID d409834f-634e-4fab-b212-3380314ee279;
 						}
 						{ IHandle 
-							- _m2Class = "IReception";
+							- _m2Class = "IPrimitiveOperation";
 							- _filename = "Building.sbs";
 							- _subsystem = "Building";
 							- _class = "Dispatcher";
-							- _name = "call_end()";
-							- _id = GUID 278ef817-1be8-42ec-b596-167ddd759125;
+							- _name = "carUpdate()";
+							- _id = GUID 3d16f303-e5d7-4e34-8334-91cc6b41519f;
 						}
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
 							- _filename = "Building.sbs";
 							- _subsystem = "Building";
 							- _class = "Dispatcher";
-							- _name = "CarUpdate()";
-							- _id = GUID 3d16f303-e5d7-4e34-8334-91cc6b41519f;
+							- _name = "insideButtonPress()";
+							- _id = GUID c6481220-ea51-4dae-afd9-2507d3b64e24;
 						}
 					}
 				}
@@ -2349,12 +2340,12 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 7;
 					}
-					- m_arrow = 1 790 122  ;
+					- m_arrow = 1 1684 204  ;
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
 					- m_SourcePort = 650 359 ;
-					- m_TargetPort = 261 610 ;
+					- m_TargetPort = 262 611 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Building.sbs";
@@ -2849,11 +2840,11 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 7;
 					}
-					- m_arrow = 1 758 316  ;
+					- m_arrow = 1 1613 542  ;
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
-					- m_SourcePort = 145 432 ;
+					- m_SourcePort = 144 434 ;
 					- m_TargetPort = 518 671 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
@@ -3029,7 +3020,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 7;
 					}
-					- m_arrow = 2 80 549  80 176  ;
+					- m_arrow = 2 121 948  121 298  ;
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
@@ -3206,7 +3197,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 7;
 					}
-					- m_arrow = 2 715 256  715 163  ;
+					- m_arrow = 2 1519 438  1519 276  ;
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
@@ -3434,8 +3425,8 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
-					- m_SourcePort = 418 879 ;
-					- m_TargetPort = 827 669 ;
+					- m_SourcePort = 419 879 ;
+					- m_TargetPort = 826 669 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Building.sbs";
@@ -4067,7 +4058,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 7;
 					}
-					- m_arrow = 1 374 70  ;
+					- m_arrow = 1 768 114  ;
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
@@ -4405,7 +4396,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 				}
 			}
 			- _name = "Outside_button_press";
-			- _lastModifiedTime = "6.12.2010::9:59:32";
+			- _lastModifiedTime = "6.13.2010::11:9:7";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -4718,7 +4709,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "outsideButtonPress(int floor, int buttonID)";
+						- m_str = "outsideButtonPress(floor, buttonID)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -4766,7 +4757,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "keyPressed(int buttonID)";
+						- m_str = "keyPressed(buttonID)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -4914,7 +4905,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "buttonPressed(int buttonID)";
+						- m_str = "buttonPressed(buttonID)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -5063,7 +5054,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- _myState = 8192;
 						- _name = "keyPressed";
 						- m_szSequence = "3.";
-						- m_szActualArgs = "int buttonID";
+						- m_szActualArgs = "buttonID";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -5097,7 +5088,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- _myState = 8192;
 						- _name = "outsideButtonPress";
 						- m_szSequence = "4.";
-						- m_szActualArgs = "int floor, int buttonID";
+						- m_szActualArgs = "floor, buttonID";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -5197,7 +5188,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- _myState = 8192;
 						- _name = "buttonPressed";
 						- m_szSequence = "2.";
-						- m_szActualArgs = "int buttonID";
+						- m_szActualArgs = "buttonID";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -5426,7 +5417,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 				}
 			}
 			- _name = "car_move";
-			- _lastModifiedTime = "6.12.2010::15:17:25";
+			- _lastModifiedTime = "6.13.2010::11:8:6";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -5700,7 +5691,7 @@ o nowe";
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "moveAtFloor(int floor, int currentFloor)";
+						- m_str = "moveAtFloor(floor, currentFloor)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -5896,7 +5887,7 @@ o nowe";
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "newDestination(int floor)";
+						- m_str = "newDestination(floor)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -5993,7 +5984,7 @@ o nowe";
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "stopAtFloor(int floor)";
+						- m_str = "stopAtFloor(floor)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -6041,7 +6032,7 @@ o nowe";
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "carOnFloor(int floor)";
+						- m_str = "carOnFloor(floor)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -6451,7 +6442,7 @@ o nowe";
 						- _myState = 8192;
 						- _name = "moveAtFloor";
 						- m_szSequence = "2.";
-						- m_szActualArgs = "int floor, int currentFloor";
+						- m_szActualArgs = "floor, currentFloor";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -6508,7 +6499,7 @@ o nowe";
 						- _myState = 8192;
 						- _name = "stopAtFloor";
 						- m_szSequence = "5.";
-						- m_szActualArgs = "int floor";
+						- m_szActualArgs = "floor";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -6593,7 +6584,7 @@ o nowe";
 						- _myState = 8192;
 						- _name = "newDestination";
 						- m_szSequence = "1.";
-						- m_szActualArgs = "int floor";
+						- m_szActualArgs = "floor";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -6650,7 +6641,7 @@ o nowe";
 						- _myState = 8192;
 						- _name = "carOnFloor";
 						- m_szSequence = "6.";
-						- m_szActualArgs = "int floor";
+						- m_szActualArgs = "floor";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -7087,7 +7078,7 @@ o nowe";
 				}
 			}
 			- _name = "open_the_door";
-			- _lastModifiedTime = "6.12.2010::15:25:40";
+			- _lastModifiedTime = "6.13.2010::11:3:51";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -7752,7 +7743,7 @@ o nowe";
 						- m_pFormalMessage = { IHandle 
 							- _m2Class = "";
 						}
-						- m_eType = EVENT;
+						- m_eType = PRIMITIVE;
 						- m_targetExec = { IHandle 
 							- _m2Class = "";
 						}
@@ -7780,7 +7771,7 @@ o nowe";
 						- m_pFormalMessage = { IHandle 
 							- _m2Class = "";
 						}
-						- m_eType = EVENT;
+						- m_eType = PRIMITIVE;
 						- m_targetExec = { IHandle 
 							- _m2Class = "";
 						}
@@ -7808,7 +7799,7 @@ o nowe";
 						- m_pFormalMessage = { IHandle 
 							- _m2Class = "";
 						}
-						- m_eType = EVENT;
+						- m_eType = PRIMITIVE;
 						- m_targetExec = { IHandle 
 							- _m2Class = "";
 						}
@@ -7836,7 +7827,7 @@ o nowe";
 						- m_pFormalMessage = { IHandle 
 							- _m2Class = "";
 						}
-						- m_eType = EVENT;
+						- m_eType = PRIMITIVE;
 						- m_targetExec = { IHandle 
 							- _m2Class = "";
 						}
@@ -7864,7 +7855,7 @@ o nowe";
 						- m_pFormalMessage = { IHandle 
 							- _m2Class = "";
 						}
-						- m_eType = EVENT;
+						- m_eType = PRIMITIVE;
 						- m_targetExec = { IHandle 
 							- _m2Class = "";
 						}
@@ -8855,7 +8846,7 @@ o nowe";
 				}
 			}
 			- _name = "choose_destination";
-			- _lastModifiedTime = "6.13.2010::9:32:24";
+			- _lastModifiedTime = "6.13.2010::11:7:32";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -9142,7 +9133,7 @@ o nowe";
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "keyPressed(int buttonID)";
+						- m_str = "keyPressed(buttonID)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -9190,7 +9181,7 @@ o nowe";
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "InsideButtonPressed(int buttomID, int elevatorNumber)";
+						- m_str = "insideButtonPressed(buttomID, elevatorNumber)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -9388,7 +9379,7 @@ o nowe";
 						- _myState = 8192;
 						- _name = "keyPressed";
 						- m_szSequence = "2.";
-						- m_szActualArgs = "int buttonID";
+						- m_szActualArgs = "buttonID";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -9415,9 +9406,9 @@ o nowe";
 					{ IMessage 
 						- _id = GUID d5d9bfc6-8103-4837-9514-78eb574bc177;
 						- _myState = 8192;
-						- _name = "InsideButtonPressed";
+						- _name = "insideButtonPressed";
 						- m_szSequence = "3.";
-						- m_szActualArgs = "int buttomID, int elevatorNumber";
+						- m_szActualArgs = "buttomID, elevatorNumber";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -9688,7 +9679,7 @@ o nowe";
 				}
 			}
 			- _name = "lock_elevator";
-			- _lastModifiedTime = "6.12.2010::11:58:29";
+			- _lastModifiedTime = "6.13.2010::11:8:31";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -9931,16 +9922,19 @@ o nowe";
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "setElevator(int CarID, boolean state)";
+						- m_str = "setElevator(CarID, false)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
 							- m_bgColor = 0;
 							- m_bgFlag = 0;
 						}
-						- m_position = 1 0 0  ;
+						- m_position = 4 -6 -9  237 -9  237 9  -6 9  ;
 						- m_nIdent = 0;
 						- m_bImplicitSetRectPoints = 0;
+						- m_transform = 1 0 0 1 278 173 ;
+						- m_nHorizontalSpacing = 2;
+						- m_nVerticalSpacing = -1;
 						- m_nOrientationCtrlPt = 6;
 					}
 					- m_drawBehavior = 4096;
@@ -10067,7 +10061,7 @@ o nowe";
 						- _myState = 8192;
 						- _name = "setElevator";
 						- m_szSequence = "2.";
-						- m_szActualArgs = "int CarID, boolean state";
+						- m_szActualArgs = "CarID, false";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -10227,7 +10221,7 @@ o nowe";
 				}
 			}
 			- _name = "unlock_elevator";
-			- _lastModifiedTime = "6.12.2010::11:57:53";
+			- _lastModifiedTime = "6.13.2010::11:8:47";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -10470,7 +10464,7 @@ o nowe";
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "setElevator(int carID, boolean state)";
+						- m_str = "setElevator(carID, true)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -10605,7 +10599,7 @@ o nowe";
 						- _myState = 8192;
 						- _name = "setElevator";
 						- m_szSequence = "2.";
-						- m_szActualArgs = "int carID, boolean state";
+						- m_szActualArgs = "carID, true";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";

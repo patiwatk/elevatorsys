@@ -4,7 +4,7 @@
 	Component	: DefaultComponent
 	Configuration 	: DefaultConfig
 	Model Element	: Dispatcher
-//!	Generated Date	: Sat, 12, Jun 2010 
+//!	Generated Date	: Sun, 13, Jun 2010 
 	File Path	: DefaultComponent/DefaultConfig/Building/Dispatcher.java
 *********************************************************************/
 
@@ -30,14 +30,6 @@ import com.ibm.rational.rhapsody.oxf.timeouts.*;
 public class Dispatcher implements RiJStateConcept {
     
     public Reactive reactive;		//## ignore 
-    
-    protected int attribute_5;		//## attribute attribute_5 
-    
-    protected Car firstCar;		//## attribute firstCar 
-    
-    protected Car secCar;		//## attribute secCar 
-    
-    protected Car thirdCar;		//## attribute thirdCar 
     
     protected Call itsCall;		//## link itsCall 
     
@@ -125,15 +117,21 @@ public class Dispatcher implements RiJStateConcept {
         }
     }
     
-    //## operation CarUpdate() 
-    public void CarUpdate() {
-        //#[ operation CarUpdate() 
-        //#]
-    }
-    
     //## operation callUpdate() 
     public void callUpdate() {
         //#[ operation callUpdate() 
+        //#]
+    }
+    
+    //## operation carUpdate() 
+    public void carUpdate() {
+        //#[ operation carUpdate() 
+        //#]
+    }
+    
+    //## operation insideButtonPress() 
+    public void insideButtonPress() {
+        //#[ operation insideButtonPress() 
         //#]
     }
     
@@ -141,46 +139,6 @@ public class Dispatcher implements RiJStateConcept {
     public void sendCar() {
         sendCar_Dispatcher_Event triggerEvent = new sendCar_Dispatcher_Event();
         reactive.takeTrigger(triggerEvent);
-    }
-    
-    //## auto_generated 
-    public int getAttribute_5() {
-        return attribute_5;
-    }
-    
-    //## auto_generated 
-    public void setAttribute_5(int p_attribute_5) {
-        attribute_5 = p_attribute_5;
-    }
-    
-    //## auto_generated 
-    private Car getFirstCar() {
-        return firstCar;
-    }
-    
-    //## auto_generated 
-    private void setFirstCar(Car p_firstCar) {
-        firstCar = p_firstCar;
-    }
-    
-    //## auto_generated 
-    private Car getSecCar() {
-        return secCar;
-    }
-    
-    //## auto_generated 
-    private void setSecCar(Car p_secCar) {
-        secCar = p_secCar;
-    }
-    
-    //## auto_generated 
-    private Car getThirdCar() {
-        return thirdCar;
-    }
-    
-    //## auto_generated 
-    private void setThirdCar(Car p_thirdCar) {
-        thirdCar = p_thirdCar;
     }
     
     //## auto_generated 
@@ -449,14 +407,9 @@ public class Dispatcher implements RiJStateConcept {
         public int rootState_dispatchEvent(short id) {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             switch (rootState_active) {
-                case Idle:
+                case Awaiting_Cars_Update:
                 {
-                    res = Idle_takeEvent(id);
-                }
-                break;
-                case Managing_Cars:
-                {
-                    res = Managing_Cars_takeEvent(id);
+                    res = Awaiting_Cars_Update_takeEvent(id);
                 }
                 break;
                 case Dispatching_Car:
@@ -464,9 +417,14 @@ public class Dispatcher implements RiJStateConcept {
                     res = Dispatching_Car_takeEvent(id);
                 }
                 break;
-                case Awaiting_Cars_Update:
+                case Managing_Cars:
                 {
-                    res = Awaiting_Cars_Update_takeEvent(id);
+                    res = Managing_Cars_takeEvent(id);
+                }
+                break;
+                case Idle:
+                {
+                    res = Idle_takeEvent(id);
                 }
                 break;
                 default:
@@ -628,9 +586,9 @@ public class Dispatcher implements RiJStateConcept {
         //## statechart_method 
         public void Running_exit() {
             switch (Running_subState) {
-                case Managing_Cars:
+                case Awaiting_Cars_Update:
                 {
-                    Managing_Cars_exit();
+                    Awaiting_Cars_Update_exit();
                 }
                 break;
                 case Dispatching_Car:
@@ -638,9 +596,9 @@ public class Dispatcher implements RiJStateConcept {
                     Dispatching_Car_exit();
                 }
                 break;
-                case Awaiting_Cars_Update:
+                case Managing_Cars:
                 {
-                    Awaiting_Cars_Update_exit();
+                    Managing_Cars_exit();
                 }
                 break;
                 default:
@@ -691,14 +649,14 @@ public class Dispatcher implements RiJStateConcept {
         //## statechart_method 
         public void rootState_exit() {
             switch (rootState_subState) {
-                case Idle:
-                {
-                    Idle_exit();
-                }
-                break;
                 case Running:
                 {
                     Running_exit();
+                }
+                break;
+                case Idle:
+                {
+                    Idle_exit();
                 }
                 break;
                 default:

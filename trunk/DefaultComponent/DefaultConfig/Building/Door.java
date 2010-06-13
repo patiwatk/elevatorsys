@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 7.5.1
-	Login		: tzadlo
+	Login		: lisher
 	Component	: DefaultComponent
 	Configuration 	: DefaultConfig
 	Model Element	: Door
-//!	Generated Date	: Sat, 12, Jun 2010 
+//!	Generated Date	: Sun, 13, Jun 2010 
 	File Path	: DefaultComponent/DefaultConfig/Building/Door.java
 *********************************************************************/
 

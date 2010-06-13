@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 7.5.1
-	Login		: tzadlo
+	Login		: lisher
 	Component	: DefaultComponent
 	Configuration 	: DefaultConfig
 	Model Element	: Floor
-//!	Generated Date	: Sat, 12, Jun 2010 
+//!	Generated Date	: Sun, 13, Jun 2010 
 	File Path	: DefaultComponent/DefaultConfig/Building/Floor.java
 *********************************************************************/
 
@@ -30,8 +30,6 @@ import com.ibm.rational.rhapsody.oxf.timeouts.*;
 public class Floor implements RiJStateConcept {
     
     public Reactive reactive;		//## ignore 
-    
-    protected Door doorOutSide;		//## attribute doorOutSide 
     
     protected int itsNumber;		//## attribute itsNumber 
     
@@ -128,16 +126,6 @@ public class Floor implements RiJStateConcept {
     public boolean isPassanger() {
         //#[ operation isPassanger() 
         //#]
-    }
-    
-    //## auto_generated 
-    public Door getDoorOutSide() {
-        return doorOutSide;
-    }
-    
-    //## auto_generated 
-    public void setDoorOutSide(Door p_doorOutSide) {
-        doorOutSide = p_doorOutSide;
     }
     
     //## auto_generated 
