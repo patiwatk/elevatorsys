@@ -432,7 +432,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 				}
 			}
 			- _name = "Model1";
-			- _lastModifiedTime = "6.13.2010::11:5:53";
+			- _lastModifiedTime = "6.14.2010::3:21:3";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 00241a05-712d-41f0-ac84-1a2cc2cd10be;
 				- m_type = 0;
@@ -558,7 +558,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.199946 0 0 0.292238 122.58 398.767 ;
+					- m_transform = 0.199946 0 0 0.292238 122.58 399.372 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -581,7 +581,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IAttribute";
@@ -591,9 +591,17 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _name = "itsNumber";
 							- _id = GUID ad641878-e59d-4d54-9ba6-37f9c614c667;
 						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Floor";
+							- _name = "isElevatorRdy";
+							- _id = GUID 131f46d3-7f96-4400-b3bc-28f8b1cc2afc;
+						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 4;
+						- size = 6;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -626,6 +634,22 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "Floor";
 							- _name = "keyPressed()";
 							- _id = GUID 11c03fdf-fd80-414e-9478-9cdefc39ce0c;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Floor";
+							- _name = "buttonActivated()";
+							- _id = GUID ee984d2d-4ea3-4a14-8e9e-f80ce8d45c8b;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Floor";
+							- _name = "carArrived()";
+							- _id = GUID b89c9b8f-a115-460d-bc03-f1d726ea4aed;
 						}
 					}
 				}
@@ -680,7 +704,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.149209 0 0 0.201094 490.489 565.749 ;
+					- m_transform = 0.149209 0 0 0.201094 490.489 566.052 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -731,7 +755,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 2;
+						- size = 4;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -748,6 +772,22 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "Door";
 							- _name = "closeDoor()";
 							- _id = GUID 546f2c45-47fc-48b2-88ca-e5030490065c;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Door";
+							- _name = "doorOpened()";
+							- _id = GUID 878e0d06-fa3f-4634-8024-324115aa66d6;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Door";
+							- _name = "doorClosed()";
+							- _id = GUID fee8cb43-0eb5-490c-aedd-61c1a6f69b7c;
 						}
 					}
 				}
@@ -1049,7 +1089,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.312889 0 0 0.31296 770.988 372.395 ;
+					- m_transform = 0.312889 0 0 0.31296 770.988 374.817 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1071,7 +1111,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 1;
+						- size = 6;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IAttribute";
@@ -1081,9 +1121,49 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _name = "itsNumber";
 							- _id = GUID 7cfb2838-4f09-4594-8b24-cc2b36fdad77;
 						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "reopenDoor";
+							- _id = GUID dad30f8d-2009-468b-b3ef-71364f641dc4;
+						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "currentAction";
+							- _id = GUID 7714d37f-e7ab-4784-adb2-c3dccd4a08a2;
+						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "destFloor";
+							- _id = GUID 1118c58b-acb7-4144-88ed-907b448ba7d2;
+						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "direction";
+							- _id = GUID 141452bb-8111-4ef6-948f-e2c50058771c;
+						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "nextFloor";
+							- _id = GUID 4b06629d-76e9-4ff9-be25-37bec733d567;
+						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 9;
+						- size = 16;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -1156,6 +1236,62 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "Car";
 							- _name = "setDoorInterrupt()";
 							- _id = GUID 32d3b2c2-ed2f-4d22-bc7b-1718a331fa08;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "newAction()";
+							- _id = GUID 4716db9f-6a2a-44b8-8d81-5d3b55d781b9;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "opened()";
+							- _id = GUID 7a0dec22-941d-47de-a458-0c2714a73d23;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "closed()";
+							- _id = GUID 7d490709-63e9-483b-b30f-b326457de61d;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "safeToClose()";
+							- _id = GUID 59137668-b238-475d-a3c9-e9dfcf89af03;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "startCar()";
+							- _id = GUID d3b8e948-9261-4f41-b27d-4b86d8b1edd6;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "isNearbyFloor()";
+							- _id = GUID 6f93d9c6-8f80-4d7f-a658-4af0ec6d7250;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Car";
+							- _name = "stopCar()";
+							- _id = GUID ff728a05-b1a5-4267-85e7-5b8d04cb2bc6;
 						}
 					}
 				}
@@ -1387,7 +1523,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.203083 0 0 0.211612 470.582 818.954 ;
+					- m_transform = 0.203083 0 0 0.211612 470.582 819.257 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1421,7 +1557,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 2;
+						- size = 3;
 						- value = 
 						{ IHandle 
 							- _m2Class = "ITriggered";
@@ -1438,6 +1574,14 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "Button";
 							- _name = "pressbutton()";
 							- _id = GUID 33c51a7e-9cae-4659-9355-3fcd152b3efa;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Button";
+							- _name = "resetButton()";
+							- _id = GUID 648a4e52-6364-4f35-b9eb-8770688b6b6f;
 						}
 					}
 				}
@@ -1492,7 +1636,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.197409 0 0 0.213347 107.691 834.005 ;
+					- m_transform = 0.197409 0 0 0.213347 107.691 834.308 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1517,7 +1661,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- size = 0;
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 2;
+						- size = 4;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -1534,6 +1678,22 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "FloorButtonsControl";
 							- _name = "buttonPressed()";
 							- _id = GUID 45435c04-b360-4b6e-973c-85f60b2e9b0d;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "FloorButtonsControl";
+							- _name = "isVisited()";
+							- _id = GUID d5c0e91c-2dc4-41fd-8ad3-3b947aeb8d17;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "FloorButtonsControl";
+							- _name = "floorButtonPressed()";
+							- _id = GUID 569f80e7-ba8d-40d0-8475-9d81b362904f;
 						}
 					}
 				}
@@ -1588,7 +1748,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.221974 0 0 0.236977 855.193 774.655 ;
+					- m_transform = 0.221974 0 0 0.236977 855.193 777.985 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1611,10 +1771,19 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 0;
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "CarButtonsControl";
+							- _name = "buttonID";
+							- _id = GUID fca87fe8-fb7e-41d0-acd0-40511969de52;
+						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 7;
+						- size = 10;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -1671,6 +1840,30 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "CarButtonsControl";
 							- _name = "callOperator()";
 							- _id = GUID 2869c966-f129-4e34-b0f4-67f69cbcd87e;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "CarButtonsControl";
+							- _name = "phoneReturned()";
+							- _id = GUID 23e78136-782b-48a1-ab07-6ddc1be5326b;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "CarButtonsControl";
+							- _name = "carButtonPressed()";
+							- _id = GUID 27a0170a-a8d0-4f63-b8e9-bfdfbdba832c;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "CarButtonsControl";
+							- _name = "actionHandled()";
+							- _id = GUID 9cbe30f9-441e-4d0d-b537-5f9f013cd6f1;
 						}
 					}
 				}
@@ -1902,7 +2095,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.217588 0 0 0.259083 887.977 -24.0001 ;
+					- m_transform = 0.217588 0 0 0.259083 887.977 -23.6973 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1945,7 +2138,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 3;
+						- size = 5;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -1970,6 +2163,22 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "Engine";
 							- _name = "moveAtFloor(int,int)";
 							- _id = GUID 93e9b84a-a755-4a4a-a87b-f4c18bc056f7;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Engine";
+							- _name = "accelerate()";
+							- _id = GUID 40dbacca-b159-4a27-a95a-419750da0995;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Engine";
+							- _name = "slowDown()";
+							- _id = GUID 98bc883d-493a-42c9-8b86-5b3c626a1571;
 						}
 					}
 				}
@@ -2200,7 +2409,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.203083 0 0 0.270642 250.938 53.8844 ;
+					- m_transform = 0.203083 0 0 0.270642 250.938 54.7927 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2223,10 +2432,19 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 0;
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Dispatcher";
+							- _name = "carToSend";
+							- _id = GUID a4cbc8fe-fc48-4001-a17e-f8831ddbb962;
+						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 5;
+						- size = 10;
 						- value = 
 						{ IHandle 
 							- _m2Class = "ITriggered";
@@ -2267,6 +2485,46 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "Dispatcher";
 							- _name = "insideButtonPress()";
 							- _id = GUID c6481220-ea51-4dae-afd9-2507d3b64e24;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Dispatcher";
+							- _name = "newRequest()";
+							- _id = GUID 754fe5df-fa8b-4e2b-90b6-b173f30ab117;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Dispatcher";
+							- _name = "newUpdate()";
+							- _id = GUID aaba0a14-aa5f-4b3d-af6e-14cc86d8e481;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Dispatcher";
+							- _name = "carSelected()";
+							- _id = GUID 33c1c351-2451-4557-9525-8560701ba6b6;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Dispatcher";
+							- _name = "triggeredoperation_16()";
+							- _id = GUID 3bcba72e-850d-4f36-8daf-461c860a806d;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "Dispatcher";
+							- _name = "dispatchCar()";
+							- _id = GUID 1b4bb3a8-dd9e-429b-ab44-436cd808cf4e;
 						}
 					}
 				}
@@ -2499,7 +2757,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2152;
-					- m_transform = 0.203083 0 0 0.265376 486.244 199.93 ;
+					- m_transform = 0.203083 0 0 0.265376 486.244 200.535 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2522,7 +2780,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IAttribute";
@@ -2532,9 +2790,17 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _name = "doorInterrupt";
 							- _id = GUID 401ca252-9740-44b8-b931-4f7a494ffab1;
 						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "SafetyControl";
+							- _name = "toControl";
+							- _id = GUID 6124fbeb-bf1a-43b0-9792-4c0621c10846;
+						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 7;
+						- size = 9;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -2591,6 +2857,22 @@ I-Logix-RPY-Archive version 8.5.2 Java 1419348
 							- _class = "SafetyControl";
 							- _name = "setDoorInterrupt(boolean)";
 							- _id = GUID 6ca3cb27-f129-4ba6-9865-bbf95e3e6285;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "SafetyControl";
+							- _name = "infoSent()";
+							- _id = GUID b9ccb001-227c-4bc6-a54c-03f257492fb3;
+						}
+						{ IHandle 
+							- _m2Class = "ITriggered";
+							- _filename = "Building.sbs";
+							- _subsystem = "Building";
+							- _class = "SafetyControl";
+							- _name = "necCheck()";
+							- _id = GUID c194975b-0c9a-444f-9dcc-71d6fb809a5a;
 						}
 					}
 				}

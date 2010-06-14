@@ -1,132 +1,115 @@
-06, 13, 2010 (13:03:02): Opening rpy file C:\Srapsody\Share\Properties\PredefinedTypes.sbs
-06, 13, 2010 (13:03:02): 
- Started loading C:\Srapsody\Share\Properties\PredefinedTypes.sbs on Sunday, June 13, 2010 (13:03:02).-
+06, 14, 2010 (04:48:26): Opening rpy file C:\Program Files\IBM\Rational\Rhapsody\7.5.1\Share\Properties\PredefinedTypes.sbs
+06, 14, 2010 (04:48:26): 
+ Started loading C:\Program Files\IBM\Rational\Rhapsody\7.5.1\Share\Properties\PredefinedTypes.sbs on Monday, June 14, 2010 (04:48:26).-
 
-06, 13, 2010 (13:03:02): 
-
-Starting inUnit resolution phase
-
-
-06, 13, 2010 (13:03:02): 
-
-Finished inUnit resolution phase
-
-
-06, 13, 2010 (13:03:02): 
- Finished loading C:\Srapsody\Share\Properties\PredefinedTypes.sbs on Sunday, June 13, 2010 (13:03:02).-
-
-06, 13, 2010 (13:03:02): Opening rpy file C:\Srapsody\Share\Properties\PredefinedTypesC++.sbs
-06, 13, 2010 (13:03:02): 
- Started loading C:\Srapsody\Share\Properties\PredefinedTypesC++.sbs on Sunday, June 13, 2010 (13:03:02).-
-
-06, 13, 2010 (13:03:02): 
+06, 14, 2010 (04:48:26): 
 
 Starting inUnit resolution phase
 
 
-06, 13, 2010 (13:03:02): 
+06, 14, 2010 (04:48:26): 
 
 Finished inUnit resolution phase
 
 
-06, 13, 2010 (13:03:02): 
- Finished loading C:\Srapsody\Share\Properties\PredefinedTypesC++.sbs on Sunday, June 13, 2010 (13:03:02).-
+06, 14, 2010 (04:48:26): 
+ Finished loading C:\Program Files\IBM\Rational\Rhapsody\7.5.1\Share\Properties\PredefinedTypes.sbs on Monday, June 14, 2010 (04:48:26).-
 
-06, 13, 2010 (13:03:02): Opening rpy file D:\studia\scr\Elev_SVN\Elevator.rpy
-06, 13, 2010 (13:03:02): 
- Started loading D:\studia\scr\Elev_SVN\Elevator.rpy on Sunday, June 13, 2010 (13:03:02).-
+06, 14, 2010 (04:48:26): Opening rpy file C:\Program Files\IBM\Rational\Rhapsody\7.5.1\Share\Properties\PredefinedTypesJava.sbs
+06, 14, 2010 (04:48:26): 
+ Started loading C:\Program Files\IBM\Rational\Rhapsody\7.5.1\Share\Properties\PredefinedTypesJava.sbs on Monday, June 14, 2010 (04:48:26).-
 
-06, 13, 2010 (13:03:02): Opening rpy file D:\studia\scr\Elev_SVN\Elevator_rpy\Building.sbs
-06, 13, 2010 (13:03:02): 
- Started loading D:\studia\scr\Elev_SVN\Elevator_rpy\Building.sbs on Sunday, June 13, 2010 (13:03:02).-
-
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): 
 
 Starting inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): 
 
 Finished inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
- Finished loading D:\studia\scr\Elev_SVN\Elevator_rpy\Building.sbs on Sunday, June 13, 2010 (13:03:03).-
+06, 14, 2010 (04:48:26): 
+ Finished loading C:\Program Files\IBM\Rational\Rhapsody\7.5.1\Share\Properties\PredefinedTypesJava.sbs on Monday, June 14, 2010 (04:48:26).-
 
-06, 13, 2010 (13:03:03): Opening rpy file D:\studia\scr\Elev_SVN\Elevator_rpy\DefaultComponent.cmp
-06, 13, 2010 (13:03:03): 
- Started loading D:\studia\scr\Elev_SVN\Elevator_rpy\DefaultComponent.cmp on Sunday, June 13, 2010 (13:03:03).-
+06, 14, 2010 (04:48:26): Opening rpy file C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator.rpy
+06, 14, 2010 (04:48:26): 
+ Started loading C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator.rpy on Monday, June 14, 2010 (04:48:26).-
 
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): Opening rpy file C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\Building.sbs
+06, 14, 2010 (04:48:26): 
+ Started loading C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\Building.sbs on Monday, June 14, 2010 (04:48:26).-
+
+06, 14, 2010 (04:48:26): 
 
 Starting inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): 
 
 Finished inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
- Finished loading D:\studia\scr\Elev_SVN\Elevator_rpy\DefaultComponent.cmp on Sunday, June 13, 2010 (13:03:03).-
+06, 14, 2010 (04:48:26): 
+ Finished loading C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\Building.sbs on Monday, June 14, 2010 (04:48:26).-
 
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): Opening rpy file C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\DefaultComponent.cmp
+06, 14, 2010 (04:48:26): 
+ Started loading C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\DefaultComponent.cmp on Monday, June 14, 2010 (04:48:26).-
+
+06, 14, 2010 (04:48:26): 
 
 Starting inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): 
 
 Finished inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): 
+ Finished loading C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\DefaultComponent.cmp on Monday, June 14, 2010 (04:48:26).-
+
+06, 14, 2010 (04:48:26): 
 
 Starting inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): 
 
 Finished inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): 
 
 Starting inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): 
 
 Finished inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
- Finished loading D:\studia\scr\Elev_SVN\Elevator.rpy on Sunday, June 13, 2010 (13:03:03).-
-
-06, 13, 2010 (13:03:03): Opening rpy file C:\Srapsody\Share\Properties\PredefinedTypesJava.sbs
-06, 13, 2010 (13:03:03): 
- Started loading C:\Srapsody\Share\Properties\PredefinedTypesJava.sbs on Sunday, June 13, 2010 (13:03:03).-
-
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): 
 
 Starting inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
+06, 14, 2010 (04:48:26): 
 
 Finished inUnit resolution phase
 
 
-06, 13, 2010 (13:03:03): 
- Finished loading C:\Srapsody\Share\Properties\PredefinedTypesJava.sbs on Sunday, June 13, 2010 (13:03:03).-
+06, 14, 2010 (04:48:26): 
+ Finished loading C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator.rpy on Monday, June 14, 2010 (04:48:26).-
 
-06, 13, 2010 (13:03:03): Opening rpy file D:\studia\scr\Elev_SVN\DefaultComponent\DefaultConfig\DefaultConfig.cg_info
-06, 13, 2010 (13:03:03): 
- Started loading D:\studia\scr\Elev_SVN\DefaultComponent\DefaultConfig\DefaultConfig.cg_info on Sunday, June 13, 2010 (13:03:03).-
+06, 14, 2010 (04:48:26): Opening rpy file C:/Program Files/IBM/Rational/Rhapsody/7.5.1/svn/DefaultComponent/DefaultConfig/DefaultConfig.cg_info
+06, 14, 2010 (04:48:26): 
+ Started loading C:/Program Files/IBM/Rational/Rhapsody/7.5.1/svn/DefaultComponent/DefaultConfig/DefaultConfig.cg_info on Monday, June 14, 2010 (04:48:26).-
 
-06, 13, 2010 (13:03:03): 
- Finished loading D:\studia\scr\Elev_SVN\DefaultComponent\DefaultConfig\DefaultConfig.cg_info on Sunday, June 13, 2010 (13:03:03).-
+06, 14, 2010 (04:48:26): 
+ Finished loading C:/Program Files/IBM/Rational/Rhapsody/7.5.1/svn/DefaultComponent/DefaultConfig/DefaultConfig.cg_info on Monday, June 14, 2010 (04:48:26).-
 
-06, 13, 2010 (13:03:03): Starting checks of EventsBaseID conflicts
-06, 13, 2010 (13:03:03): Finished checks of EventsBaseID conflicts
-06, 13, 2010 (13:03:03): End Log
+06, 14, 2010 (04:48:26): Starting checks of EventsBaseID conflicts
+06, 14, 2010 (04:48:26): Finished checks of EventsBaseID conflicts
+06, 14, 2010 (04:48:26): End Log

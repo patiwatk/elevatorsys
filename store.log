@@ -1,21 +1,28 @@
-06, 13, 2010 (13:22:02): Starting Pre-Save actions
+06, 14, 2010 (05:23:44): Starting Pre-Save actions
 
-06, 13, 2010 (13:22:02): Starting Dialogs Check/Save
-06, 13, 2010 (13:22:02): Finished Dialogs Check/Save
-06, 13, 2010 (13:22:02): Starting Controlled Files Resolution
-06, 13, 2010 (13:22:02): Finished Controlled Files Resolution
-06, 13, 2010 (13:22:02): Finished Pre-Save actions
+06, 14, 2010 (05:23:44): Starting Dialogs Check/Save
+06, 14, 2010 (05:23:44): Finished Dialogs Check/Save
+06, 14, 2010 (05:23:44): Starting Controlled Files Resolution
+06, 14, 2010 (05:23:44): Finished Controlled Files Resolution
+06, 14, 2010 (05:23:44): Finished Pre-Save actions
 
-06, 13, 2010 (13:22:02): Creating D:\studia\scr\Elev_SVN\Elevator.rpy
-06, 13, 2010 (13:22:02): 
-Started writing D:\studia\scr\Elev_SVN\Elevator.rpy on Sunday, June 13, 2010 (13:22:02)
+06, 14, 2010 (05:23:44): Creating C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator.rpy
+06, 14, 2010 (05:23:44): 
+Started writing C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator.rpy on Monday, June 14, 2010 (05:23:44)
 
-06, 13, 2010 (13:22:02): version 8.5.2
-06, 13, 2010 (13:22:02): 
-Started writing D:\studia\scr\Elev_SVN\Elevator_rpy\filesTable.dat on Sunday, June 13, 2010 (13:22:02)
+06, 14, 2010 (05:23:44): version 8.5.2
+06, 14, 2010 (05:23:44): 
+Started writing C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\filesTable.dat on Monday, June 14, 2010 (05:23:44)
 
-06, 13, 2010 (13:22:02): Finished writing D:\studia\scr\Elev_SVN\Elevator_rpy\filesTable.dat on Sunday, June 13, 2010 (13:22:02)
+06, 14, 2010 (05:23:44): Finished writing C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\filesTable.dat on Monday, June 14, 2010 (05:23:44)
 
-06, 13, 2010 (13:22:02): Finished writing D:\studia\scr\Elev_SVN\Elevator.rpy on Sunday, June 13, 2010 (13:22:02)
+06, 14, 2010 (05:23:44): Creating C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\Building.sbs
+06, 14, 2010 (05:23:44): 
+Started writing C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\Building.sbs on Monday, June 14, 2010 (05:23:44)
 
-06, 13, 2010 (13:22:02): End Log
+06, 14, 2010 (05:23:44): version 8.5.2
+06, 14, 2010 (05:23:45): Finished writing C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator_rpy\Building.sbs on Monday, June 14, 2010 (05:23:45)
+
+06, 14, 2010 (05:23:45): Finished writing C:\Program Files\IBM\Rational\Rhapsody\7.5.1\svn\Elevator.rpy on Monday, June 14, 2010 (05:23:45)
+
+06, 14, 2010 (05:23:45): End Log
