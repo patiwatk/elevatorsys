@@ -33,3 +33,11 @@
 06, 04, 2010 (23:01:03): UR named: itsLaczenie sie z operatorem, of type IAssociationEnd, and ID: 13b44011-2bfd-4d05-9867-72b720eb3064 was created. Owned by the Pasazer Actor.
 06, 04, 2010 (23:01:03): UR named: itsPasazer, of type IAssociationEnd, and ID: 6900c510-d325-459f-a42a-5f56eba18f8b was created. Owned by the Wybranie pietra docelowego UseCase.
 06, 04, 2010 (23:01:03): UR named: itsWybranie pietra docelowego, of type IAssociationEnd, and ID: 8949d93b-335c-494c-ae42-54ea0dc0a72f was created. Owned by the Pasazer Actor.
+06, 14, 2010 (04:46:09): UR named: doorOutSide, of type IAttribute, and ID: 357696d8-df65-4e19-b6d0-2d10bff9a402 was created. Owned by the Floor Class.
+06, 14, 2010 (04:46:09): UR named: btnController, of type IAttribute, and ID: 0d33a45b-c48d-49d6-a7ab-88b39189f4a6 was created. Owned by the Car Class.
+06, 14, 2010 (04:46:09): UR named: doorInside, of type IAttribute, and ID: 87e21c48-cf6d-4a26-b3a2-acb07f306da3 was created. Owned by the Car Class.
+06, 14, 2010 (04:46:09): UR named: safetyController, of type IAttribute, and ID: 9d0c2ff4-a782-46da-ac85-5620d5ac534e was created. Owned by the Car Class.
+06, 14, 2010 (04:46:09): UR named: firstCar, of type IAttribute, and ID: f58bea91-b32d-452d-ba39-465d7a43df65 was created. Owned by the Dispatcher Class.
+06, 14, 2010 (04:46:09): UR named: secCar, of type IAttribute, and ID: 1aa8bd5d-6baf-4f4d-b0dc-0ba5cf960ed2 was created. Owned by the Dispatcher Class.
+06, 14, 2010 (04:46:09): UR named: thirdCar, of type IAttribute, and ID: 38ebe652-a94d-4734-a6ae-05b67f00f89b was created. Owned by the Dispatcher Class.
+06, 14, 2010 (04:46:09): UR named: attribute_5, of type IAttribute, and ID: 93a0850e-6430-4c58-91f0-1a28fcf0ae8f was created. Owned by the Dispatcher Class.
